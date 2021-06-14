@@ -3,10 +3,10 @@ import styled from 'styled-components'
 const SVG = styled.svg`
 z-index: 0;
 @media screen and (max-aspect-ratio:5/3){
-    transform: translateX(-20vw);
+    transform: translateX(5vw);
 }
 `
-export default function () {
+export default function Stripes() {
     return (
         <SVG height="100vh" viewBox="0 0 1056 1076" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <g id="Layer Listras" clip-path="url(#clip0)">

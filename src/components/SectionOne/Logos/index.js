@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 const SVG = styled.svg`
 `
-export default function () {
+export default function Logos() {
     return (
-        <SVG width="auto" height="auto" viewBox="0 0 744 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <SVG width="auto" height="auto" lenght="auto" viewBox="0 0 744 152" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Logos" clip-path="url(#clip0)">
                 <g id="HTML,CSS,JS">
                     <g id="JS Logo" filter="url(#filter0_d)">
