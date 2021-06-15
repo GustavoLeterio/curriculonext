@@ -1,11 +1,13 @@
 import styled from 'styled-components'
 
 const SVG = styled.svg`
+    z-index: 1;
+    max-width: 40vw;
 `
 export default function Logos() {
     return (
-        <SVG width="auto" height="auto" lenght="auto" viewBox="0 0 744 152" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g id="Logos" clip-path="url(#clip0)">
+        <SVG viewBox="0 0 744 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Logos" clipPath="url(#clip0)">
                 <g id="HTML,CSS,JS">
                     <g id="JS Logo" filter="url(#filter0_d)">
                         <path id="shield" d="M158.383 126.68L148 -0.213135L272 0.0421844L261.021 126.68L210.468 141.319L158.383 126.68Z" fill="#E9CA32" />
@@ -28,9 +30,9 @@ export default function Logos() {
                 </g>
                 <g id="React Logo" filter="url(#filter3_d)">
                     <ellipse id="C&#195;&#173;rculo" cx="394.627" cy="72.0403" rx="11.4013" ry="10.8831" fill="#61DAFB" />
-                    <path id="Arco Vertical" d="M466 72.0118C466 74.9947 464.581 78.188 461.284 81.4712C457.971 84.7696 452.975 87.9239 446.481 90.6587C433.508 96.1216 415.31 99.596 395 99.596C374.69 99.596 356.492 96.1216 343.519 90.6587C337.025 87.9239 332.029 84.7696 328.716 81.4712C325.419 78.188 324 74.9947 324 72.0118C324 69.0288 325.419 65.8355 328.716 62.5524C332.029 59.254 337.025 56.0996 343.519 53.3648C356.492 47.902 374.69 44.4276 395 44.4276C415.31 44.4276 433.508 47.902 446.481 53.3648C452.975 56.0996 457.971 59.254 461.284 62.5524C464.581 65.8355 466 69.0288 466 72.0118Z" stroke="#61DAFB" stroke-width="8" />
-                    <path id="Arco Diagonal Dir" d="M429.875 9.86776C432.47 11.3396 434.547 14.1491 435.776 18.6372C437.01 23.1462 437.289 29.0484 436.463 36.0464C434.814 50.0248 428.857 67.5682 418.835 85.2336C408.814 102.899 396.813 117.014 385.66 125.601C380.077 129.9 374.868 132.69 370.365 133.944C365.882 135.192 362.405 134.85 359.81 133.378C357.216 131.907 355.138 129.097 353.909 124.609C352.675 120.1 352.397 114.198 353.222 107.2C354.871 93.2213 360.829 75.6779 370.85 58.0126C380.871 40.3472 392.873 26.2325 404.025 17.6449C409.608 13.3458 414.817 10.5564 419.321 9.30238C423.803 8.05418 427.281 8.39592 429.875 9.86776Z" stroke="#61DAFB" stroke-width="8" />
-                    <path id="Arco Diagonal Esq" d="M360.009 9.92446C362.6 8.44506 366.076 8.09318 370.562 9.32832C375.069 10.5692 380.286 13.3434 385.882 17.6262C397.059 26.1812 409.102 40.2609 419.175 57.897C429.247 75.5331 435.256 93.059 436.946 107.033C437.792 114.028 437.53 119.931 436.309 124.444C435.094 128.935 433.024 131.751 430.434 133.23C427.844 134.71 424.367 135.062 419.881 133.826C415.374 132.586 410.157 129.811 404.561 125.529C393.384 116.974 381.342 102.894 371.269 85.2578C361.196 67.6217 355.188 50.0958 353.498 36.1221C352.652 29.1266 352.913 23.2236 354.134 18.7111C355.35 14.2194 357.419 11.4039 360.009 9.92446Z" stroke="#61DAFB" stroke-width="8" />
+                    <path id="Arco Vertical" d="M466 72.0118C466 74.9947 464.581 78.188 461.284 81.4712C457.971 84.7696 452.975 87.9239 446.481 90.6587C433.508 96.1216 415.31 99.596 395 99.596C374.69 99.596 356.492 96.1216 343.519 90.6587C337.025 87.9239 332.029 84.7696 328.716 81.4712C325.419 78.188 324 74.9947 324 72.0118C324 69.0288 325.419 65.8355 328.716 62.5524C332.029 59.254 337.025 56.0996 343.519 53.3648C356.492 47.902 374.69 44.4276 395 44.4276C415.31 44.4276 433.508 47.902 446.481 53.3648C452.975 56.0996 457.971 59.254 461.284 62.5524C464.581 65.8355 466 69.0288 466 72.0118Z" stroke="#61DAFB" strokeWidth="8" />
+                    <path id="Arco Diagonal Dir" d="M429.875 9.86776C432.47 11.3396 434.547 14.1491 435.776 18.6372C437.01 23.1462 437.289 29.0484 436.463 36.0464C434.814 50.0248 428.857 67.5682 418.835 85.2336C408.814 102.899 396.813 117.014 385.66 125.601C380.077 129.9 374.868 132.69 370.365 133.944C365.882 135.192 362.405 134.85 359.81 133.378C357.216 131.907 355.138 129.097 353.909 124.609C352.675 120.1 352.397 114.198 353.222 107.2C354.871 93.2213 360.829 75.6779 370.85 58.0126C380.871 40.3472 392.873 26.2325 404.025 17.6449C409.608 13.3458 414.817 10.5564 419.321 9.30238C423.803 8.05418 427.281 8.39592 429.875 9.86776Z" stroke="#61DAFB" strokeWidth="8" />
+                    <path id="Arco Diagonal Esq" d="M360.009 9.92446C362.6 8.44506 366.076 8.09318 370.562 9.32832C375.069 10.5692 380.286 13.3434 385.882 17.6262C397.059 26.1812 409.102 40.2609 419.175 57.897C429.247 75.5331 435.256 93.059 436.946 107.033C437.792 114.028 437.53 119.931 436.309 124.444C435.094 128.935 433.024 131.751 430.434 133.23C427.844 134.71 424.367 135.062 419.881 133.826C415.374 132.586 410.157 129.811 404.561 125.529C393.384 116.974 381.342 102.894 371.269 85.2578C361.196 67.6217 355.188 50.0958 353.498 36.1221C352.652 29.1266 352.913 23.2236 354.134 18.7111C355.35 14.2194 357.419 11.4039 360.009 9.92446Z" stroke="#61DAFB" strokeWidth="8" />
                 </g>
                 <g id="Next Logo">
                     <g id="Next Logo_2" filter="url(#filter4_d)">
@@ -39,8 +41,8 @@ export default function Logos() {
                 </g>
             </g>
             <defs>
-                <filter id="filter0_d" x="138" y="-9.21313" width="144" height="161.532" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter0_d" x="138" y="-9.21313" width="144" height="161.532" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
                     <feOffset dy="1" />
                     <feGaussianBlur stdDeviation="5" />
@@ -48,8 +50,8 @@ export default function Logos() {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
                 </filter>
-                <filter id="filter1_d" x="64" y="-9.21313" width="144" height="161.53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter1_d" x="64" y="-9.21313" width="144" height="161.53" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
                     <feOffset dy="1" />
                     <feGaussianBlur stdDeviation="5" />
@@ -57,8 +59,8 @@ export default function Logos() {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
                 </filter>
-                <filter id="filter2_d" x="-10" y="-9.21313" width="144" height="161.532" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter2_d" x="-10" y="-9.21313" width="144" height="161.532" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
                     <feOffset dy="1" />
                     <feGaussianBlur stdDeviation="5" />
@@ -66,8 +68,8 @@ export default function Logos() {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
                 </filter>
-                <filter id="filter3_d" x="310" y="-18.2131" width="170" height="181.655" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter3_d" x="310" y="-18.2131" width="170" height="181.655" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
                     <feOffset dy="1" />
                     <feGaussianBlur stdDeviation="5" />
@@ -75,8 +77,8 @@ export default function Logos() {
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
                 </filter>
-                <filter id="filter4_d" x="508" y="-6.21313" width="245" height="156" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <filter id="filter4_d" x="508" y="-6.21313" width="245" height="156" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
                     <feOffset dy="1" />
                     <feGaussianBlur stdDeviation="5" />

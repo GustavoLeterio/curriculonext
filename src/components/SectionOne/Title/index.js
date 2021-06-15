@@ -19,14 +19,14 @@ const BigTitle = styled.h1`
     font-weight: normal;
 `
 Title.SubTitle = styled.h1`
-    font-size: clamp(0.5rem, 5vw, 2.5rem); 
+    font-size: clamp(1rem, 3vw, 5rem); 
     font-weight: normal;
 `
 export default function Title() {
     return (
         <Wrapper>
             <BigTitle>Front-End<br />END</BigTitle>
-            <Title.SubTitle class="Title__SubTitle-p5la25-1 ilICRm">Gustavo Letério</Title.SubTitle >
+            <Title.SubTitle>Gustavo Letério</Title.SubTitle >
         </Wrapper>
     )
 };

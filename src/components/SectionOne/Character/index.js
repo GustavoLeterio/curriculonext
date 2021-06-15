@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 const Image = styled.img`
+    z-index: 1;
     width: auto;
     height: 70vh;
     position: absolute;
@@ -17,8 +18,9 @@ const Image = styled.img`
 export default function Character() {
     return (
         <Image draggable="false"
-            src="/assets/photo.png"
+            src="/assets/PNG/photo.png"
             alt="Picture of the author"
+            layout="responsive"
         />
     )
 };
