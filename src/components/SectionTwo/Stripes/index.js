@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const SVG = styled.svg`
 grid-area:stripes;
+width: 100%;
 max-height: 100vh;
 #pinkStripe,#whiteStripe,#photo{
     filter: drop-shadow( 0px -3px 5px ${({ theme }) => theme.colors.black});

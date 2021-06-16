@@ -32,10 +32,10 @@ export default function Stripes() {
         <Wrapper>
             <Wrapper.Title>Afinal, quem sou <Wrapper.Title.PinkText>eu</Wrapper.Title.PinkText>?</Wrapper.Title>
             <Wrapper.Paragraph>
-                Meu nome é <Wrapper.Title.PinkText>Gustavo Letério</Wrapper.Title.PinkText>, tenho 18 anos e moro em Ourinhos - SP, venho aprendendo desenvolvimento de sites desde 2018 a partir de um curso técnico voltado em <Wrapper.Title.PinkText>Web Develop</Wrapper.Title.PinkText> com HTML, CSS, JS, PHP, Java e MySQL.
+                Meu nome é <Wrapper.Title.PinkText>Gustavo Letério</Wrapper.Title.PinkText>, tenho 18 anos e moro em Ourinhos - SP, venho aprendendo desenvolvimento de sites desde 2018 a partir de um curso técnico voltado em <Wrapper.Title.PinkText>Web Development</Wrapper.Title.PinkText> com HTML, CSS, JS, PHP, Java e MySQL.
             </Wrapper.Paragraph>
             <Wrapper.Paragraph>
-                Acabei me apaixonando pela criação de aplicações agradáveis e fáceis de navegar. Com isso encontrei em <Wrapper.Title.PinkText>NextJS</Wrapper.Title.PinkText> liberdade criativa e organização. Desde então venho aprimorando minhas habilidades com esse potente framework.
+                Acabei me apaixonando pela criação de aplicações agradáveis e fáceis de navegar. Com isso encontrei em <Wrapper.Title.PinkText>NextJS</Wrapper.Title.PinkText> liberdade criativa e organização. Desde então venho aprimorando minhas habilidades com esta biblioteca.
             </Wrapper.Paragraph>
             <Wrapper.Paragraph>
                 Atualmente estou no 1° semestre da gradução de <Wrapper.Title.PinkText>Análise e Desenvolvimento de Sistemas</Wrapper.Title.PinkText> na Fatec de Ourinhos.

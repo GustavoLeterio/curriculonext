@@ -72,7 +72,7 @@ export default function Contacts() {
           </defs>
         </svg>
       </Wrapper.A>
-      <Wrapper.A href="#">
+      <Wrapper.A href="#" rel="noreferrer noopener" target="_blank">
         <svg width="12vh" height="12vh" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="github" clipPath="url(#clip0)" filter="url(#filter0_d)">
             <path id="Vector" d="M73 13C39.8628 13 13 39.8628 13 73C13 106.137 39.8628 133 73 133C106.137 133 133 106.137 133 73C133 39.8628 106.137 13 73 13Z" fill="#000821" />
@@ -94,7 +94,7 @@ export default function Contacts() {
           </defs>
         </svg>
       </Wrapper.A>
-      <Wrapper.A href="public/PDF/cv.pdf" target="_blank" rel="noreferrer noopener">
+      <Wrapper.A href="assets/PDF/cv.pdf" rel="noreferrer noopener" target="_blank">
         <svg width="12vh" height="12vh" viewBox="0 0 146 146" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="CV" clip-path="url(#clip0)" filter="url(#filter0_d)">
             <path id="Vector_2" d="M73 13C39.8628 13 13 39.8628 13 73C13 106.137 39.8628 133 73 133C106.137 133 133 106.137 133 73C133 39.8628 106.137 13 73 13Z" fill="#FAFAFA" />
