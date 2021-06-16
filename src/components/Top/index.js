@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 const SVG = styled.svg`
 grid-area:top;
 z-index: 2;
