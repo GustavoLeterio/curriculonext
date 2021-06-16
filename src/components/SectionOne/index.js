@@ -5,13 +5,14 @@ import Title from './Title/index'
 import Character from './Character/index'
 import Contacts from './Contacts/index'
 
-const Wrapper = styled.section`
+const Wrapper = styled.section` 
     z-index: 1;
+    height: 80vh;
+    padding-top:6vh;
 `
 Wrapper.Section = styled.div`
     display: grid;
     grid-template-columns: 50vw 50vw;
-    height: 100vh;
     position: fixed;
 @media screen and (max-aspect-ratio:5/3){
     grid-template-columns: 70vw 55vw;

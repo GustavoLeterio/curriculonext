@@ -1,15 +1,18 @@
 import styled from 'styled-components'
 
 const SVG = styled.svg`
-background-color: black;
-z-index: 4;
-#pinkStripe,#whiteStripe,#top,#photo{
-    filter: drop-shadow( 0px -3px 5px black);
+grid-area:stripes;
+max-height: 100vh;
+#pinkStripe,#whiteStripe,#photo{
+    filter: drop-shadow( 0px -3px 5px ${({ theme }) => theme.colors.black});
+}
+#top{
+    filter: drop-shadow( 20px -3px 10px ${({ theme }) => theme.colors.black});
 }
 `
 export default function Stripes() {
     return (
-        <SVG height="100vh" viewBox="0 0 522 1171" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <SVG viewBox="0 0 350 1171" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g>
                 <g id="pinkStripe">
                     <path d="M13.4768 0L522 1171V0H13.4768Z" fill="#F18888" />

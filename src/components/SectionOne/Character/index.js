@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 const Image = styled.img`
-    z-index: 1;
+    z-index: 3;
     width: auto;
     height: 70vh;
     position: absolute;

@@ -1,15 +1,13 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-    transform: translate(0,0);
-    z-index: 2;
+    z-index: 4;
     display: grid;
-    align-self: center;
     position: absolute;
-    transform: translate(2vw,-5vh);
+    transform: translate(2vw,-1vh);
     row-gap: 2vh;
     @media screen and (max-aspect-ratio:5/3){
-    transform: translate(24vw,-5vh);
+    transform: translate(24vw,-2vh);
 }
 `
 Wrapper.A = styled.a`

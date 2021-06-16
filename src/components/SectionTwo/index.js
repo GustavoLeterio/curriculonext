@@ -1,17 +1,21 @@
 import styled from 'styled-components'
 import Stripes from './Stripes/index'
-import Top from './Top/index'
+import Description from './Description/index'
 
 const Wrapper = styled.section`
+padding-top:10vh;
+z-index: 1;
 display: grid;
-grid-template-rows: 0 100vw;
-background-color: white;
-z-index: 4;
+grid-template-columns: 70vw auto;
+grid-template-areas:
+"description stripes"
+"description stripes";
+background-color: ${({ theme }) => theme.colors.white};
 `
 export default function SectionTwo() {
     return (
         <Wrapper id="SectionTwo">
-            <Top />
+            <Description />
             <Stripes />
         </Wrapper>
     )

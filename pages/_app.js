@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body{
+    margin: 0 0;
     font-family: 'Aleo','serif';
     background-color: ${theme.colors.background};
   }

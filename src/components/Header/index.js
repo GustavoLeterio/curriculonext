@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.header`
+    z-index: 100;
     width: 100%;
     padding: 1.5vh 2vw;
     background-color: ${({ theme }) => theme.colors.white};
@@ -15,16 +16,15 @@ const Wrapper = styled.header`
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    z-index: 5;
 `
 Wrapper.Title = styled.h1`
     display: flex;
     align-items: center;
     font-weight:normal;
-    font-size: clamp(0.5rem, 5vw, 2.5rem); 
+    font-size: clamp(0.5rem, 4vw, 2.5rem); 
 `
 Wrapper.Nav = styled.nav`
-    font-size: clamp(0.5rem, 5vw, 2rem); 
+    font-size: clamp(0.5rem, 4vw, 2rem); 
     margin:0 1vw;
     float:right;
     display: flex;
@@ -48,7 +48,8 @@ Wrapper.A = styled.a`
 export default function Header() {
   return (
     <Wrapper>
-      <Wrapper.Title>Gustavo Letério</Wrapper.Title>
+
+      <Wrapper.Title><Wrapper.A href="#SectionOne">Gustavo Letério</Wrapper.A></Wrapper.Title>
       <Wrapper.Nav>
         <Wrapper.A href="#SectionTwo">Quem Sou Eu?</Wrapper.A>
         <Wrapper.A href="#">Contato</Wrapper.A>

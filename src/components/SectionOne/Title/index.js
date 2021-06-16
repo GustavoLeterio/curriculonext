@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 const Wrapper = styled.div`
+    z-index: 0;
     padding: 1.5vh 0 1.5vh 1.5vh;
-    color: #F18888;
+    color: ${({ theme }) => theme.colors.primary};
     line-height: 0.8;
-    border-left: 3px solid #F18888;
+    border-left: 3px solid ${({ theme }) => theme.colors.primary};
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
