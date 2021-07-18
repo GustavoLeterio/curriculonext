@@ -9,6 +9,7 @@ const Wrapper = styled.section`
     z-index: 1;
     height: 80vh;
     padding-top:6vh;
+    transition: 0.2s;
 `
 Wrapper.Section = styled.div`
     display: grid;
@@ -30,9 +31,11 @@ Wrapper.Section.RightSideWrapper = styled.div`
     row-gap: 5vh;
     padding-top: 8vh;
 `
+
+
 export default function SectionOne() {
     return (
-        <Wrapper id="SectionOne">
+        <Wrapper id="SectionOne" >
             <Wrapper.Section>
                 <Wrapper.Section.LeftSideWrapper>
                     <Stripes />

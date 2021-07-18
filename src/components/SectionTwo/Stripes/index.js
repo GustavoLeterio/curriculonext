@@ -1,15 +1,16 @@
 import styled from 'styled-components'
 
 const SVG = styled.svg`
-grid-area:stripes;
-width: 100%;
-max-height: 100vh;
-#pinkStripe,#whiteStripe,#photo{
-    filter: drop-shadow( 0px -3px 5px ${({ theme }) => theme.colors.black});
-}
-#top{
-    filter: drop-shadow( 20px -3px 10px ${({ theme }) => theme.colors.black});
-}
+    grid-area:stripes;
+    width: 100%;
+    max-height: 100vh;
+    #top{
+        filter: drop-shadow( 20px -3px 10px ${({ theme }) => theme.colors.black});
+    }
+    #pinkStripe,#whiteStripe{
+        filter: drop-shadow( 0px -3px 5px ${({ theme }) => theme.colors.black});
+    }
+
 `
 export default function Stripes() {
     return (
@@ -21,12 +22,16 @@ export default function Stripes() {
                 <g>
                     <path id="whiteStripe" d="M522 -6.10352e-05H78.1652L521.735 1019.2L522 -6.10352e-05Z" fill="#FAFAFA" />
                 </g>
-                <path id="photo" d="M133.5 0L522.5 871L522 0H133.5Z" fill="url(#pattern1)" />
+                <path id="photo" d="M133.5 0L522.5 871L522 0H133.5Z" filter="url(#filter1_i)" fill="url(#pattern1)" />
                 <g>
                     <path id="top" d="M0 0H522V23.8537H10.606L0 0Z" fill="#FAFAFA" />
                 </g>
             </g>
             <defs>
+                <filter id="filter1_i" x="0" y="0" width="841" height="1076" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                </filter>
                 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
                     <use xlinkHref="#image1" transform="translate(-0.775465) scale(0.00159433 0.000833333)" />
                 </pattern>

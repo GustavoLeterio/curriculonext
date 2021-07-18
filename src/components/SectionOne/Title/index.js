@@ -26,7 +26,7 @@ Title.SubTitle = styled.h1`
 export default function Title() {
     return (
         <Wrapper>
-            <BigTitle>Front-End<br />END</BigTitle>
+            <BigTitle>Front-End<br />DEV</BigTitle>
             <Title.SubTitle>Gustavo Letério</Title.SubTitle >
         </Wrapper>
     )

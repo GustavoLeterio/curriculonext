@@ -6,6 +6,7 @@ const SVG = styled.svg`
     transform: translateX(5vw);
 }
 `
+
 export default function Stripes() {
     return (
             <SVG height="80vh" viewBox="0 0 1056 1076" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -22,7 +23,6 @@ export default function Stripes() {
                         <g id="Intersect" filter="url(#filter1_i)">
                             <path fillRule="evenodd" clipRule="evenodd" d="M841 0L551.033 1076H0V0H841Z" fill="url(#pattern0)" />
                         </g>
-                        <path id="Intersect_2" fillRule="evenodd" clipRule="evenodd" d="M824 0L539.895 1076H0V0H824Z" fill="url(#pattern0)" />
                     </g>
                 </g>
                 <defs>

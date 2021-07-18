@@ -11,7 +11,7 @@ Wrapper.Title = styled.h1`
     margin: 0.5vh 0 5vh 0.5vw;
     content: '';
     display: block;
-    width: 75%;
+    width: 60%;
     height: 2px;
     background: ${({ theme }) => theme.colors.primary};
     transition: width .3s;
@@ -30,15 +30,15 @@ Wrapper.Paragraph = styled.p`
 export default function Stripes() {
     return (
         <Wrapper>
-            <Wrapper.Title>Afinal, quem sou <Wrapper.Title.PinkText>eu</Wrapper.Title.PinkText>?</Wrapper.Title>
+            <Wrapper.Title>So, who am <Wrapper.Title.PinkText>I</Wrapper.Title.PinkText>?</Wrapper.Title>
             <Wrapper.Paragraph>
-                Meu nome é <Wrapper.Title.PinkText>Gustavo Letério</Wrapper.Title.PinkText>, tenho 18 anos e moro em Ourinhos - SP, venho aprendendo desenvolvimento de sites desde 2018 a partir de um curso técnico voltado em <Wrapper.Title.PinkText>Web Development</Wrapper.Title.PinkText> com HTML, CSS, JS, PHP, Java e MySQL.
+                My name is <Wrapper.Title.PinkText>Gustavo Letério</Wrapper.Title.PinkText>, I'm 18 years old living in a small town in Brazil, called Ourinhos, I came learning web developing since 2018 from a technical course focused on <Wrapper.Title.PinkText>Web Development</Wrapper.Title.PinkText> with HTML, CSS, JS, PHP, Java and MySQL.
             </Wrapper.Paragraph>
             <Wrapper.Paragraph>
-                Acabei me apaixonando pela criação de aplicações agradáveis e fáceis de navegar. Com isso encontrei em <Wrapper.Title.PinkText>NextJS</Wrapper.Title.PinkText> liberdade criativa e organização. Desde então venho aprimorando minhas habilidades com esta biblioteca.
+                I felt in love by learning how to create beautyful and easy going aplications. With this feeling I find <Wrapper.Title.PinkText>NextJS</Wrapper.Title.PinkText> looking for creativity power and organization. Since then I became improving my skills with this library.
             </Wrapper.Paragraph>
             <Wrapper.Paragraph>
-                Atualmente estou no 1° semestre da gradução de <Wrapper.Title.PinkText>Análise e Desenvolvimento de Sistemas</Wrapper.Title.PinkText> na Fatec de Ourinhos.
+                Today I'm in the 2° semester of my graduation in <Wrapper.Title.PinkText>Analysis and Systems Development</Wrapper.Title.PinkText> in Fatec Ourinhos.
             </Wrapper.Paragraph>
         </Wrapper>
     )
