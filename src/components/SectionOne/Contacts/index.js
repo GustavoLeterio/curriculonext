@@ -72,7 +72,7 @@ export default function Contacts() {
           </defs>
         </svg>
       </Wrapper.A>
-      <Wrapper.A href="#" rel="noreferrer noopener" target="_blank">
+      <Wrapper.A href="https://github.com/Leterinho" rel="noreferrer noopener" target="_blank">
         <svg viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="github" clipPath="url(#clip0)" filter="url(#filter0_d)">
             <path id="Vector" d="M73 13C39.8628 13 13 39.8628 13 73C13 106.137 39.8628 133 73 133C106.137 133 133 106.137 133 73C133 39.8628 106.137 13 73 13Z" fill="#000821" />
